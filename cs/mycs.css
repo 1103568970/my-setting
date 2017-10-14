@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fo/iconfont.eot");
+  src: url("../fo/iconfont.eot?#iefix") format("embedded-opentype"), url("../fo/iconfont.woff") format("woff"), url("../fo/iconfont.ttf") format("truetype"), url("../fo/iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 12px;
+  font-style: normal;
+  color: #bcbcbc;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+html, html body {
+  height: 100%;
+  width: 100%; }
+  html body {
+    margin: 0; }
+    html body header {
+      font-size: 0.64rem;
+      color: #ffffff;
+      background: #148AD2;
+      height: 2rem;
+      width: 100%; }
+      html body header .txt-noe {
+        position: relative;
+        display: flex;
+        height: 100%; }
+        html body header .txt-noe span {
+          margin-top: 3%;
+          height: 100%; }
+    html body .tow {
+      font-size: 0.64rem; }
+      html body .tow .tow-txt {
+        width: 100%;
+        display: flex; }
+        html body .tow .tow-txt span {
+          text-align: center;
+          flex: 1; }
+          html body .tow .tow-txt span:nth-child(1) {
+            color: #148AD2; }
+  html section {
+    background: #f4f4f4; }
+    html section .sec {
+      margin-bottom: 0.4rem;
+      margin-left: 0.08rem;
+      display: flex;
+      border-bottom: 0.04rem solid red; }
+      html section .sec .Oimg {
+        margin-left: 0.32rem; }
+        html section .sec .Oimg img {
+          width: 5.2rem;
+          height: 4.4rem; }
+      html section .sec .sec-txt {
+        margin-left: 0.32rem;
+        font-size: 0.64rem;
+        position: relative; }
+        html section .sec .sec-txt .ali {
+          width: 100%;
+          position: absolute;
+          bottom: 5%;
+          display: flex; }
+          html section .sec .sec-txt .ali i {
+            flex: 1; }
+            html section .sec .sec-txt .ali i:nth-child(1) {
+              flex: 3; }
+    html section .re {
+      margin-top: 0.4rem;
+      margin-left: 0.08rem;
+      border-bottom: 0.04rem solid red; }
+      html section .re div:nth-child(1) {
+        margin-left: 0.32rem;
+        font-size: 0.8rem; }
+      html section .re .re-img {
+        display: flex; }
+        html section .re .re-img img {
+          margin-left: 0.12rem;
+          width: 4.8rem;
+          height: 4rem; }
+      html section .re .ld {
+        margin-left: 0.32rem;
+        display: flex; }
+        html section .re .ld span:nth-child(1) {
+          flex: 4; }
+        html section .re .ld span:nth-child(2) {
+          flex: 1; }
+        html section .re .ld i:nth-child(1) {
+          font-style: normal;
+          font-size: 0.48rem; }
+
+.zj {
+  position: absolute;
+  left: 40%; }
+
+#setting {
+  display: none;
+  background: #f4f4f4;
+  z-index: 20; }
+  #setting i {
+    color: #148AD2;
+    font-style: normal;
+    display: block; }
+
+/*# sourceMappingURL=mycs.css.map */
